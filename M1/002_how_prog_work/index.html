@@ -8,23 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://ekidscoding.github.io/python0/">
+        <link rel="canonical" href="https://ekidscoding.github.io/python0/M1/002_how_prog_work/">
       
       
+        <link rel="prev" href="../../001_syllabus_why_python/">
       
-        <link rel="next" href="001_syllabus_why_python/">
+      
+        <link rel="next" href="../003_natural_vs_programming_langs/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
     
     
       
-        <title>Python основи</title>
+        <title>Вступ до Python та Компʼютерного Програмування - Python основи</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
       
       
 
@@ -43,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#python-0" class="md-skip">
+        <a href="#python" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Python основи" class="md-header__button md-logo" aria-label="Python основи" data-md-component="logo">
+    <a href="../.." title="Python основи" class="md-header__button md-logo" aria-label="Python основи" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Вітаємо на курсі "Python з 0"
+              Вступ до Python та Компʼютерного Програмування
             
           </span>
         </div>
@@ -173,7 +175,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Python основи" class="md-nav__button md-logo" aria-label="Python основи" data-md-component="logo">
+    <a href="../.." title="Python основи" class="md-nav__button md-logo" aria-label="Python основи" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -188,19 +190,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -209,7 +202,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -221,7 +213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="001_syllabus_why_python/" class="md-nav__link">
+      <a href="../../001_syllabus_why_python/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -238,17 +230,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -262,7 +256,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             M1
@@ -273,10 +267,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="M1/002_how_prog_work/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -285,6 +288,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -297,7 +301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="M1/003_natural_vs_programming_langs/" class="md-nav__link">
+      <a href="../003_natural_vs_programming_langs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -351,16 +355,38 @@
                   
 
 
-<h1 id="python-0">Вітаємо на курсі "Python з 0"</h1>
-<p>Основна <strong>ціль</strong> курсу - провести вас від повної відсутності знань в області компʼютерного програмування до рівня професійних знань і навичок, з якими</p>
-<p>ви зможете:</p>
+<h1 id="python">Вступ до Python та Компʼютерного Програмування</h1>
+<p><strong>МОДУЛЬ 1</strong></p>
+<p>В даному модулі вивчається:</p>
 <ul>
-<li>планувати   </li>
-<li>писати код   </li>
-<li>відлагоджувати   </li>
-<li>запускати  програми, <br />
-написані на мові програмування Python, а також <strong>розуміти</strong> основні ідеї та принципи розробки Програмного Забезпечення (ПЗ)</li>
+<li>Основи Компʼютерного Програмування, зокрема<ul>
+<li>як працює компʼютер</li>
+<li>як виконується програма</li>
+<li>визначення мови програмування</li>
 </ul>
+</li>
+<li>різниця між компіляцією та інтерпретацією</li>
+<li>що таке Python</li>
+<li>яке його місце серед інших мов програмування</li>
+<li>які відмінності між версіями Python.</li>
+</ul>
+<h1 id="_1">Як працюють компʼютерні програми?</h1>
+<p>Цей курс спрямований на те, щоб показати що таке програмування та для чого воно використовується. Почнемо з самих основ.</p>
+<p>Програмне Забезпечення (ПЗ) робить компʼютер корисним. Без програм, навіть найновітніший компʼютер - це лише обʼєкт. Так само як піаніно без піаніста - це лише велика коробка.</p>
+<p>Компʼютери можуть виконувати надскладні задачі. Але ця можливість не є "вродженою". Природа компʼютера дещо інша.</p>
+<p>Він може виконувати лише найпростіші операції. До прикладу, компʼютер не може обчислити значення складної математичної функції.</p>
+<p>Сучасні компʼютери можуть обчислити лише найпростіші операції: lдодавання, ділення, тощо, але роблять вони це надзвичайно швидко і можуть робити такі операції без кінця і краю. </p>
+<p>Уявіть, що ви хочете обчислити середню швидкість, з якою рухались впродовж довгої поїздки. Ви знаєте відстань, ви знаєте час. Вам потрібна швидкість.</p>
+<p>Звісно компʼютер може обчислити це, але компʼютер не усвідомлює понять відстань, час, швидкість.</p>
+<p>Таким чином необхідно написати інструкції, щоб:</p>
+<ol>
+<li>отримати число, що представляє відстань;</li>
+<li>тримати число, що представляє час подорожі;</li>
+<li>поділити перше на друге та зберегти результат в памʼяті;</li>
+<li>відобразити результат обчислення (rщо являється середньою швидкістю) в зручному "читабельному" форматі.</li>
+</ol>
+<p>Ці чотири прості дії взяті разом є компʼютерною програмою. Звісно, такі інструкції (1-4) не дуже чіткі, і вони дуже далекі від того, що може зрозуміти компʼютер, але цього вже достатньо, щоб перекласти на зрозумілу компʼютеру мову.</p>
+<p>Ключове слово МОВА.</p>
 
 
 
@@ -407,10 +433,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
   </body>
