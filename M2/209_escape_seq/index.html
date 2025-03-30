@@ -529,6 +529,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Приклад 2
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -538,6 +549,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Наслідки
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -570,6 +609,23 @@
   
     
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Наслідки
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -604,6 +660,18 @@
 за селом.</p>
 </blockquote>
 <p>Як ви бачите, 2 нових рядки зʼявились у відомій римі на тих місцях, де в аргументі були <code>\n</code>.</p>
+<h2 id="_1">Наслідки</h2>
+<p>Ця домовленність має 2 важливих наслідки:</p>
+<ol>
+<li>Якщо ви хочете надрукувати один символ backslash всередині рядку, не забувайте його властивість екранування - ви маєте подвоїти символ, до прикладу., наступний виклик функції спричинить помилку:</li>
+</ol>
+<p><code>print("\")</code></p>
+<p>в той час як тут нема помилки і надрукується один бекслеш:</p>
+<p><code>print("\\")</code></p>
+<ol>
+<li>Не всі екрануючі пари ( backslash в поєднанні з іншим символом) щось значать.</li>
+</ol>
+<p>Проекспериментуйте в вашому редакторі коду, надрукуйте за допомогою <code>print()</code> різні поєднання '\t', '\s', '\m', '\f' і подивіться що буде.</p>
 
 
 
