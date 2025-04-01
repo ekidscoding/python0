@@ -2,54 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ekidscoding.github.io/python0/</loc>
-         <lastmod>2025-03-30</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://ekidscoding.github.io/python0/001_syllabus_why_python/</loc>
-         <lastmod>2025-03-30</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://ekidscoding.github.io/python0/M1/002_how_prog_work/</loc>
-         <lastmod>2025-03-30</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://ekidscoding.github.io/python0/M1/003_natural_vs_programming_langs/</loc>
-         <lastmod>2025-03-30</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://ekidscoding.github.io/python0/M2/201_m2/</loc>
-         <lastmod>2025-03-30</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://ekidscoding.github.io/python0/M2/202_first_program/</loc>
-         <lastmod>2025-03-30</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://ekidscoding.github.io/python0/M2/203_print_function/</loc>
-         <lastmod>2025-03-30</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://ekidscoding.github.io/python0/M2/204_function_call/</loc>
-         <lastmod>2025-03-30</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://ekidscoding.github.io/python0/M2/205_lab1/</loc>
-         <lastmod>2025-03-30</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://ekidscoding.github.io/python0/M2/206_print_summary/</loc>
-         <lastmod>2025-03-30</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://ekidscoding.github.io/python0/M2/207_multi_print/</loc>
-         <lastmod>2025-03-30</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://ekidscoding.github.io/python0/M2/208_empty_print/</loc>
-         <lastmod>2025-03-30</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://ekidscoding.github.io/python0/M2/209_escape_seq/</loc>
-         <lastmod>2025-03-30</lastmod>
+         <lastmod>2025-04-01</lastmod>
+    </url>
+    <url>
+         <loc>https://ekidscoding.github.io/python0/M2/210_multi_args/</loc>
+         <lastmod>2025-04-01</lastmod>
     </url>
 </urlset>
