@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://ekidscoding.github.io/python0/M2/208_empty_print/">
+        <link rel="canonical" href="https://ekidscoding.github.io/python0/M2/215_lab2/">
       
       
-        <link rel="prev" href="../207_multi_print/">
+        <link rel="prev" href="../214_keyword_args/">
       
       
-        <link rel="next" href="../209_escape_seq/">
+        <link rel="next" href="../216_lab3/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Приклад 1 - Python основи</title>
+        <title>Практика 2 - Python основи</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#print" class="md-skip">
+        <a href="#2" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Приклад 1
+              Практика 2
             
           </span>
         </div>
@@ -498,19 +498,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../208_empty_print/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -519,7 +510,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -655,10 +645,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../215_lab2/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Практика 2
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -667,6 +677,71 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Приблизна тривалість
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Рівень складності
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ціль
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Сценарій
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Заданий вивід
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -720,6 +795,59 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Приблизна тривалість
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Рівень складності
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ціль
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Сценарій
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Заданий вивід
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -733,21 +861,24 @@
                   
 
 
-<h1 id="print">Порожній <code>print()</code></h1>
-<pre class="copy"><code class="language-yaml">print(&quot;Мені тринадцятий минало.&quot;)
-print()
-print(&quot;Я пас ягнята за селом.&quot;)
+<h1 id="2">Практична 2</h1>
+<p>Вітаємо на другій Практичній роботі! </p>
+<h2 id="_1">Приблизна тривалість</h2>
+<p>5-10 хвилин</p>
+<h2 id="_2">Рівень складності</h2>
+<p>Дуже легкий</p>
+<h2 id="_3">Ціль</h2>
+<p>Знайомство з функцією <code>print()</code> та її можливостями форматування;</p>
+<p>експерименти з кодом Python.</p>
+<h2 id="_4">Сценарій</h2>
+<p>Маємо код</p>
+<pre class="copy"><code class="language-yaml">print(&quot;Основи&quot;,&quot;Програмування&quot;,&quot;в&quot;)
+print(&quot;Python&quot;)
 </code></pre>
-<p>Ми трохи змінили попередній код - додали порожній виклик функції <code>print()</code>. Ми назвали його порожнім, бо не передали жодного аргументу.</p>
-<p>Запустимо цей код.</p>
-<p>Що відбулось?</p>
-<p>Якщо все спрацювало, ви побачите наступне:</p>
-<blockquote>
-<p>Мені тринадцятий минало.   </p>
-<p>Я пас ягнята за селом.</p>
-</blockquote>
-<p>Як ви бачите, порожній виклик <code>print()</code>не такий порожній, як могло би здатись - він друкує порожню стрічку, або (так теж можна сказати) його вивід - новий рядок.</p>
-<p>Це не єдиний спосіб переводу на новий рядок. Зараз ми покажемо ще один варіант.</p>
+<p>Змінити перший рядок коду, використавши ключові слова <code>sep</code> та <code>end</code>, щоб отримати <strong>заданий вивід</strong>. Використати рівно 2 виклики функції <code>print()</code>.</p>
+<p>Нічого не змінювати в другому виклику <code>print()</code> та в перших (позиційних) аргументах.</p>
+<h2 id="_5">Заданий вивід</h2>
+<p><code>Основи***Програмування***в...Python</code></p>
 
 
 

@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://ekidscoding.github.io/python0/M2/208_empty_print/">
+        <link rel="canonical" href="https://ekidscoding.github.io/python0/M2/214_keyword_args/">
       
       
-        <link rel="prev" href="../207_multi_print/">
+        <link rel="prev" href="../213_separator/">
       
       
-        <link rel="next" href="../209_escape_seq/">
+        <link rel="next" href="../215_lab2/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Приклад 1 - Python основи</title>
+        <title>Аргументи - Python основи</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#print" class="md-skip">
+        <a href="#print-" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Приклад 1
+              Аргументи
             
           </span>
         </div>
@@ -498,19 +498,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../208_empty_print/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -519,7 +510,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -634,10 +624,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../214_keyword_args/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -646,6 +645,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -733,21 +733,16 @@
                   
 
 
-<h1 id="print">Порожній <code>print()</code></h1>
-<pre class="copy"><code class="language-yaml">print(&quot;Мені тринадцятий минало.&quot;)
-print()
-print(&quot;Я пас ягнята за селом.&quot;)
+<h1 id="print-">Функція print() - ключові аргументи</h1>
+<p>Обидва ключові аргументи можна використати одночасно, ось наприклад так:</p>
+<pre class="copy"><code class="language-yaml">print(&quot;Друзі&quot;, &quot;звуть&quot;, &quot;мене&quot;, sep=&quot;_&quot;, end=&quot;*&quot;)
+print(&quot;Monty&quot;, &quot;Python.&quot;, sep=&quot;*&quot;, end=&quot;*\n&quot;)
 </code></pre>
-<p>Ми трохи змінили попередній код - додали порожній виклик функції <code>print()</code>. Ми назвали його порожнім, бо не передали жодного аргументу.</p>
-<p>Запустимо цей код.</p>
-<p>Що відбулось?</p>
-<p>Якщо все спрацювало, ви побачите наступне:</p>
-<blockquote>
-<p>Мені тринадцятий минало.   </p>
-<p>Я пас ягнята за селом.</p>
-</blockquote>
-<p>Як ви бачите, порожній виклик <code>print()</code>не такий порожній, як могло би здатись - він друкує порожню стрічку, або (так теж можна сказати) його вивід - новий рядок.</p>
-<p>Це не єдиний спосіб переводу на новий рядок. Зараз ми покажемо ще один варіант.</p>
+<p>Таке оформлення не можна назвати типовим, але воно наглядно показує взаємодію між ключовими аргументами.</p>
+<p>Чи можете ви передбачити, що виведе даний код?</p>
+<p>Запустіть його та побачите, чи збігається ваша версія з реальністю.</p>
+<p>Тепер коли ви опанували функцію <code>print()</code>, ви готові розглянути як зберігають дані в Python.</p>
+<p>Без <code>print()</code> ви б не побачили результатів.</p>
 
 
 

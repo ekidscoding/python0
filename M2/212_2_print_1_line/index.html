@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://ekidscoding.github.io/python0/M2/208_empty_print/">
+        <link rel="canonical" href="https://ekidscoding.github.io/python0/M2/212_2_print_1_line/">
       
       
-        <link rel="prev" href="../207_multi_print/">
+        <link rel="prev" href="../211_key_args/">
       
       
-        <link rel="next" href="../209_escape_seq/">
+        <link rel="next" href="../213_separator/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Приклад 1 - Python основи</title>
+        <title>Аргумент "end" - Python основи</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#print" class="md-skip">
+        <a href="#print-1" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Приклад 1
+              Аргумент "end"
             
           </span>
         </div>
@@ -498,19 +498,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../208_empty_print/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -519,7 +510,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -592,10 +582,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../212_2_print_1_line/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -604,6 +603,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -733,21 +733,18 @@
                   
 
 
-<h1 id="print">Порожній <code>print()</code></h1>
-<pre class="copy"><code class="language-yaml">print(&quot;Мені тринадцятий минало.&quot;)
-print()
-print(&quot;Я пас ягнята за селом.&quot;)
+<h1 id="print-1">Функція print() - ключовий аргумент 1</h1>
+<p>Прийшов час спробувати дещо складніше.</p>
+<pre class="copy"><code class="language-yaml">print(&quot;Мене звати &quot;, end=&quot;&quot;)
+print(&quot;Monty Python.&quot;)
 </code></pre>
-<p>Ми трохи змінили попередній код - додали порожній виклик функції <code>print()</code>. Ми назвали його порожнім, бо не передали жодного аргументу.</p>
-<p>Запустимо цей код.</p>
-<p>Що відбулось?</p>
-<p>Якщо все спрацювало, ви побачите наступне:</p>
-<blockquote>
-<p>Мені тринадцятий минало.   </p>
-<p>Я пас ягнята за селом.</p>
-</blockquote>
-<p>Як ви бачите, порожній виклик <code>print()</code>не такий порожній, як могло би здатись - він друкує порожню стрічку, або (так теж можна сказати) його вивід - новий рядок.</p>
-<p>Це не єдиний спосіб переводу на новий рядок. Зараз ми покажемо ще один варіант.</p>
+<p>Якщо уважно подивитись, ви побачите, що ми скористались ключовим аргументом <code>end</code>, але рядок йому присвоїли порожній (він взагалі не має символів).</p>
+<p>Що ж відбудеться? Запустіть програму, щоб зʼясувати.</p>
+<p>Оскільки <code>end</code> був встановлений у "ніщо", перший виклик функції <code>print()</code> виводить це "ніщо" (нічого не виводить) коли вичерпані позиційні аргументи.</p>
+<p>Консоль має показати наступний текст:</p>
+<p>Мене звати Monty Python.</p>
+<p>Примітка: Новий рядок буде надрукований лише після другого виклику</p>
+<p>Рядок, який ми присвоюємо ключовому аргументу <code>end</code> може бути довільної довжини. Поекспериментуйте з цим, не пошкодуєте.</p>
 
 
 
