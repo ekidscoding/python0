@@ -2,3 +2,5 @@ site_name: Python основи
 site_url: https://ekidscoding.github.io/python0/
 theme:
   name: material
+  features:
+  - content.code.copy
