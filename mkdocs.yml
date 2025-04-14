@@ -1,6 +1,14 @@
 site_name: Python основи
 site_url: https://ekidscoding.github.io/python0/
 theme:
+  favicon: assets/favicon.ico
+  logo: assets/logo.png
   name: material
+  language: uk
+  font:
+    text: Source Sans 3
+    code: Source Code Pro
   features:
-  - content.code.copy
+    - navigation.top
+    - content.code.copy
+    - navigation.footer
