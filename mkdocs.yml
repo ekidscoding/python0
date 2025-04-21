@@ -4,6 +4,7 @@ theme:
   favicon: assets/favicon.ico
   logo: assets/logo.png
   name: material
+  custom_dir: overrides
   language: uk
   font:
     text: Source Sans 3
@@ -12,6 +13,9 @@ theme:
     - navigation.top
     - content.code.copy
     - navigation.footer
+
+plugins:
+  - meta
 
 markdown_extensions:
   - attr_list
