@@ -1,5 +1,6 @@
 ---
 title: Зміст
+comments:  false
 ---
 
 # Зміст курсу
